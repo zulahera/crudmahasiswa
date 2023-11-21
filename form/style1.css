@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Reset default margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Latar belakang abu-abu yang lebih muda */
+}
+
+/* Center-align heading */
+h1 {
+    text-align: center;
+    color: #333; /* Warna teks judul yang lebih gelap */
+}
+
+/* Style form container */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd; /* Ubah warna garis tepi ke abu-abu yang lebih muda */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan yang lebih ringan */
+}
+
+/* Style form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Berikan jarak yang lebih besar antara label dan input */
+    color: #555; /* Warna teks label yang lebih gelap */
+}
+
+/* Style text and file inputs */
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Berikan jarak yang lebih besar antara input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style radio and checkbox inputs */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px; /* Berikan margin yang lebih besar antara radio button dan checkbox */
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px; /* Berikan padding yang lebih besar pada tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi perubahan warna latar belakang */
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Warna latar belakang yang lebih gelap saat hover */
+}
